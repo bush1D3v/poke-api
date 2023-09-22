@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="src/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/shift-away-extreme.css" />
+  <link rel="stylesheet" href="src/fonts/fonts.css">
+  <link rel="stylesheet" href="src/assets/css/variables.css">
+  <link rel="stylesheet" href="src/assets/css/reset.css">
+  <link rel="stylesheet" href="src/assets/css/types.css">
+  <link rel="stylesheet" href="src/assets/css/style.css">
+  <link rel="stylesheet" href="src/assets/css/responsive.css">
+  <link rel="stylesheet" href="src/assets/css/modal.css">
+  <title>Kanto Pokédex</title>
+</head>
+
+<body>
+  <section class="content">
+    <h1>Pokédex</h1>
+
+    <ol id="pokemon-list" class="pokemon-list"></ol>
+
+    <div class="pagination">
+      <button id="load-button" type="button">
+        Load More
+      </button>
+    </div>
+
+  </section>
+
+  <section id="my-modal" class="modal">
+    <div class='container'>
+      <div class="fisical-modal-content">
+        <div id="pokemon-list-details" class="pokemons-modal"></div>
+      </div>
+    </div>
+  </section>
+
+  <script src="src/assets/js/modal.js"></script>
+  <script src="src/assets/js/pokemon-model.js"></script>
+  <script src="src/assets/js/poke-api.js"></script>
+  <script src="src/assets/js/main.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <script src="src/assets/js/tooltip.js"></script>
+</body>
+
+</html>
