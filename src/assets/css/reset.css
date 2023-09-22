@@ -11,4 +11,5 @@ body {
     background-color: var(--light-gray);
     display: flex;
     justify-content: center;
+    background: url('../../images/fire-red-wallpaper.jpg');
 }
