@@ -1,0 +1,14 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: var(--white);
+}
+
+body {
+    background-color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+}
